@@ -1,0 +1,1761 @@
+
+
+########## 🏠 Home ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 9]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 17]
+[C9] "Member" -> null
+   row:[20 | Member | 22 | Source Name | Platform | Link | Remark]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 1.0 | Sync & Shine - Sync up | Figjam | Link | Weekly Sync]
+[I10] "Link" -> null
+   row:[20 | Outsource | 1.0 | Sync & Shine - Sync up | Figjam | Link | Weekly Sync]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 2 | Sync & Shine - Shine out | Figjam | Link | Weekly Brainstorm]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 2 | Sync & Shine - Shine out | Figjam | Link | Weekly Brainstorm]
+[C12] "Team Agreement" -> null
+   row:[20 | Team Agreement | 3 | 2025 Task & Effort | Google Sheet | Link | Task & Effort - All Team]
+[I12] "Link" -> null
+   row:[20 | Team Agreement | 3 | 2025 Task & Effort | Google Sheet | Link | Task & Effort - All Team]
+[C13] "Tools & Template" -> null
+   row:[20 | Tools & Template | 4 | 2026 Effort Tracking (Time Sheet) - Aum | Google Sheet | Link | Effort Tracking - Aum]
+[I13] "Link" -> null
+   row:[20 | Tools & Template | 4 | 2026 Effort Tracking (Time Sheet) - Aum | Google Sheet | Link | Effort Tracking - Aum]
+[C14] "KPI activity log" -> null
+   row:[20 | KPI activity log | 5 | 2026 Effort Tracking (Time Sheet) - Patt | Google Sheet | Link | Effort Tracking - Patt]
+[I14] "Link" -> null
+   row:[20 | KPI activity log | 5 | 2026 Effort Tracking (Time Sheet) - Patt | Google Sheet | Link | Effort Tracking - Patt]
+[C15] "Task & Effort" -> null
+   row:[20 | Task & Effort | 6 | 2026 Effort Tracking (Time Sheet) - Aml | Google Sheet | Link | Effort Tracking - Aml]
+[I15] "Link" -> null
+   row:[20 | Task & Effort | 6 | 2026 Effort Tracking (Time Sheet) - Aml | Google Sheet | Link | Effort Tracking - Aml]
+[C16] "Workload" -> null
+   row:[20 | Workload | 7 | 2026 Effort Tracking (Time Sheet) - Thor | Google Sheet | Link | Effort Tracking - Thor]
+[I16] "Link" -> null
+   row:[20 | Workload | 7 | 2026 Effort Tracking (Time Sheet) - Thor | Google Sheet | Link | Effort Tracking - Thor]
+[C17] "Team Meeting" -> null
+   row:[20 | Team Meeting | 8 | 2026 Effort Tracking (Time Sheet) - Moss | Google Sheet | Link | Effort Tracking - Moss]
+[I17] "Link" -> null
+   row:[20 | Team Meeting | 8 | 2026 Effort Tracking (Time Sheet) - Moss | Google Sheet | Link | Effort Tracking - Moss]
+[C18] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 9 | 2026 Effort Tracking (Time Sheet) - Miew | Google Sheet | Link | Effort Tracking - Miew]
+[I18] "Link" -> null
+   row:[20 | Train & Workshop | 9 | 2026 Effort Tracking (Time Sheet) - Miew | Google Sheet | Link | Effort Tracking - Miew]
+[C19] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 10.0 | 2025 Workload & Resource Allocation - AXONS Factory & Sustainability | Google Sheet | Link | 2025 Workload record - AXFS]
+[I19] "Link" -> null
+   row:[20 | Knowledge Sharing | 10.0 | 2025 Workload & Resource Allocation - AXONS Factory & Sustainability | Google Sheet | Link | 2025 Workload record - AXFS]
+[C20] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 11.0 | 2025 Workload & Resource Allocation - AXONS Maintenance & Product Life Cycle Management | Google Sheet | Link | 2025 Workload record - AXMPN]
+[C21] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C22] "Others" -> null
+   row:[20 | Others | 64]
+[C24] "Knowledge base" -> null
+   row:[20 | Knowledge base | 22 | Source Name | Platform | Link | Remark]
+[C25] "Squad team" -> null
+   row:[20 | Squad team | 1.0 | 2025 Activity Log - AXONS Factory & Sustainability | Google Sheet | Link | Activity Log for 2025 - AXFS]
+[I25] "Link" -> null
+   row:[20 | Squad team | 1.0 | 2025 Activity Log - AXONS Factory & Sustainability | Google Sheet | Link | Activity Log for 2025 - AXFS]
+[C26] "Sprint No" -> null
+   row:[20 | Sprint No | 2 | 2025 Activity Log - AXONS Maintenance & Product Life Cycle Management | Google Sheet | Link | Activity Log for 2025 - AXMPN]
+[C27] "Azure board" -> null
+   row:[20 | Azure board | 3 | AXONS - UXUI - SiteVisit - Log | Google Sheet | Link | by Tum & Lemon]
+[I27] "Link" -> null
+   row:[20 | Azure board | 3 | AXONS - UXUI - SiteVisit - Log | Google Sheet | Link | by Tum & Lemon]
+[C28] "Project Code" -> null
+   row:[20 | Project Code]
+[C29] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C31] "Product URL" -> null
+   row:[20 | Product URL]
+[C32] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C35] "HR" -> null
+   row:[20 | HR]
+[C36] "IT Support" -> null
+   row:[20 | IT Support]
+[C37] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C38] "PMO" -> null
+   row:[20 | PMO]
+[C39] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C40] "DM Food" -> null
+   row:[20 | DM Food]
+[C42] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C43] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C44] "IT Support" -> null
+   row:[20 | IT Support]
+[C45] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## 🎯 Company goal ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 6]
+[B5] "Drive" -> null
+   row:[👾 | Drive]
+[C7] "Member" -> null
+   row:[20 | Member | 1.0 | SharePoint - PMO Year Plan | SharePoint | Link | Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4]
+[I7] "Link" -> null
+   row:[20 | Member | 1.0 | SharePoint - PMO Year Plan | SharePoint | Link | Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4]
+[J7] "Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4" -> null
+   row:[20 | Member | 1.0 | SharePoint - PMO Year Plan | SharePoint | Link | Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4]
+[C8] "Outsource" -> null
+   row:[20 | Outsource | 2.0 | Food - 2025 Year Plan | SharePoint | Link]
+[I8] "Link" -> null
+   row:[20 | Outsource | 2.0 | Food - 2025 Year Plan | SharePoint | Link]
+[C9] "Knowledge base" -> null
+   row:[20 | Knowledge base | 3.0 | Food - 2026 Year Plan | SharePoint | Link | Updated 18 Jun 2026 by Mewji]
+[I9] "Link" -> null
+   row:[20 | Knowledge base | 3.0 | Food - 2026 Year Plan | SharePoint | Link | Updated 18 Jun 2026 by Mewji]
+[C10] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C11] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C12] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C13] "Workload" -> null
+   row:[20 | Workload]
+[C14] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C15] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C16] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C17] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C18] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C19] "Others" -> null
+   row:[🍽️ | • | Others]
+[C21] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C22] "Squad team" -> null
+   row:[20 | Squad team]
+[C23] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C24] "Azure board" -> null
+   row:[20 | Azure board]
+[C25] "Project Code" -> null
+   row:[20 | Project Code]
+[C26] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C28] "Product URL" -> null
+   row:[20 | Product URL]
+[C29] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C32] "HR" -> null
+   row:[20 | HR]
+[C33] "IT Support" -> null
+   row:[20 | IT Support]
+[C34] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C35] "PMO" -> null
+   row:[20 | PMO]
+[C36] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C37] "DM Food" -> null
+   row:[👩🏻‍💻 | • | DM Food]
+[C39] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C40] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C41] "IT Support" -> null
+   row:[20 | IT Support]
+[C42] "Booking" -> null
+   row:[🔀 | • | Booking]
+
+
+########## 📈 KPI & Responsibility ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 8]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | UX/UI Role & Responsibility | Figjam | Link | Role & Responsibility]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | UX/UI Role & Responsibility | Figjam | Link | Role & Responsibility]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | Dashboard - DM KPI | Power BI | Link | For check DM KPI | 46191.0]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | Dashboard - UXUI KPI - 2024 | Lookerstudio | Link | For check UXUI KPI 2024]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | Dashboard - UXUI KPI - 2024 | Lookerstudio | Link | For check UXUI KPI 2024]
+[I10] "Link" -> null
+   row:[4.0 | Dashboard - UXUI KPI - 2025 | Lookerstudio | Link | For check UXUI KPI 2025 | 46191.0]
+[C11] "Outsource" -> null
+   row:[20 | Outsource | 5.0 | 2024 - KPI Goal Setting | Google Doc | Link | Edited by P.Mewji]
+[I11] "Link" -> null
+   row:[20 | Outsource | 5.0 | 2024 - KPI Goal Setting | Google Doc | Link | Edited by P.Mewji]
+[C12] "Knowledge base" -> null
+   row:[20 | Knowledge base | 6.0 | 2024 - เกณฑ์การประสิทธิภาพการปฏิบัติงาน (Efficiency) - KPI Evaluation 2024 - UX/UI  (Backup) | Google Slide | Link]
+[I12] "Link" -> null
+   row:[20 | Knowledge base | 6.0 | 2024 - เกณฑ์การประสิทธิภาพการปฏิบัติงาน (Efficiency) - KPI Evaluation 2024 - UX/UI  (Backup) | Google Slide | Link]
+[I13] "Link" -> null
+   row:[7.0 | 2024 KPI - Other role | Google Sheet | Link]
+[C14] "Tools & Template" -> null
+   row:[20 | Tools & Template | 7.0 | 2026 KPI - Other role | Google Sheet | Link | 46191.0]
+[I14] "Link" -> null
+   row:[20 | Tools & Template | 7.0 | 2026 KPI - Other role | Google Sheet | Link | 46191.0]
+[I15] "Link" -> null
+   row:[8.0 | 2025 - KPI Goal Setting | Google Doc | Link | By P.Tum]
+[C16] "KPI activity log" -> null
+   row:[20 | KPI activity log | 9.0 | 2026 - KPI Goal Setting | Google Doc | Link | By P.Tum | 46191.0]
+[I16] "Link" -> null
+   row:[20 | KPI activity log | 9.0 | 2026 - KPI Goal Setting | Google Doc | Link | By P.Tum | 46191.0]
+[C17] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C18] "Workload" -> null
+   row:[20 | Workload | 125]
+[C19] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C20] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 1.0 | KPI - Mean | Google Drive | Link | Only Mean can access | 46191.0]
+[I20] "Link" -> null
+   row:[20 | Train & Workshop | 1.0 | KPI - Mean | Google Drive | Link | Only Mean can access | 46191.0]
+[C21] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 2 | KPI - Mild | Google Drive | Link | Only Mild can access | 46191.0]
+[I21] "Link" -> null
+   row:[20 | Knowledge Sharing | 2 | KPI - Mild | Google Drive | Link | Only Mild can access | 46191.0]
+[C22] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 3 | KPI - Nack | Google Drive | Link | Only Nack can access | 46191.0]
+[I22] "Link" -> null
+   row:[20 | Trick & Tips | 3 | KPI - Nack | Google Drive | Link | Only Nack can access | 46191.0]
+[C23] "Project portfolio" -> null
+   row:[20 | Project portfolio | 4 | KPI - Namwaan | Google Drive | Link | Only P'Waan can access | 46191.0]
+[I23] "Link" -> null
+   row:[20 | Project portfolio | 4 | KPI - Namwaan | Google Drive | Link | Only P'Waan can access | 46191.0]
+[I24] "Link" -> null
+   row:[5.0 | KPI - Puk | Google Drive | Link | Only Puk can access | 46191.0]
+[C25] "Others" -> null
+   row:[20 | Others | 6.0 | KPI - Gun (Secret member) | Google Drive | Link | Only Gun can access | 46191.0]
+[I25] "Link" -> null
+   row:[20 | Others | 6.0 | KPI - Gun (Secret member) | Google Drive | Link | Only Gun can access | 46191.0]
+[C27] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C28] "Squad team" -> null
+   row:[20 | Squad team]
+[C29] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C30] "Azure board" -> null
+   row:[20 | Azure board]
+[C31] "Project Code" -> null
+   row:[20 | Project Code]
+[C32] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C34] "Product URL" -> null
+   row:[20 | Product URL]
+[C35] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C38] "HR" -> null
+   row:[20 | HR]
+[C39] "IT Support" -> null
+   row:[20 | IT Support]
+[C40] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C41] "PMO" -> null
+   row:[20 | PMO]
+[C42] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C43] "DM Food" -> null
+   row:[20 | DM Food]
+[C45] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C46] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C47] "IT Support" -> null
+   row:[20 | IT Support]
+[C48] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - KPI activity log ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 140]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | 2024 Activity Log - UX/UI Food | Figjam | Link | Activity Log for 2024]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | 2024 Activity Log - UX/UI Food | Figjam | Link | Activity Log for 2024]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2.0 | 2025 Activity Log - AXONS Factory & Sustainability | Google Sheet | Link | Activity Log for 2025 - AXFS]
+[C9] "Member" -> null
+   row:[20 | Member | 3.0 | 2025 Activity Log - AXONS Maintenance & PLM | Google Sheet | Link | Activity Log for 2025 - AXMP]
+[I9] "Link" -> null
+   row:[20 | Member | 3.0 | 2025 Activity Log - AXONS Maintenance & PLM | Google Sheet | Link | Activity Log for 2025 - AXMP]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 3.0 | AXONS - UXUI - SiteVisit - Log | Google Sheet | Link | by Tum & Lemon]
+[I10] "Link" -> null
+   row:[20 | Outsource | 3.0 | AXONS - UXUI - SiteVisit - Log | Google Sheet | Link | by Tum & Lemon]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## Drive ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 146]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | UX/UI - AXONS Factory | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | UX/UI - AXONS Factory | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | UX/UI - AXONS Maintenance | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | UX/UI - AXONS PLM | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | UX/UI - AXONS PLM | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4 | UX/UI - AXONS Tracebility | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4 | UX/UI - AXONS Tracebility | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5 | UX/UI - R&D Innovation | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5 | UX/UI - R&D Innovation | Google Drive | Link | Folder Stock for UT, GA, CSAT, Multi-Language, Persona]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 153]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload | 22 | Source Name | Platform | Link | Remark]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 1.0 | SharePoint - Food Business | SharePoint | Link]
+[I16] "Link" -> null
+   row:[20 | Team Meeting | 1.0 | SharePoint - Food Business | SharePoint | Link]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 2 | SharePoint - PMO Year Plan | SharePoint | Link | Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4]
+[I17] "Link" -> null
+   row:[20 | Train & Workshop | 2 | SharePoint - PMO Year Plan | SharePoint | Link | Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4]
+[J17] "Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4" -> null
+   row:[20 | Train & Workshop | 2 | SharePoint - PMO Year Plan | SharePoint | Link | Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Member ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[C4] "Team Meeting" -> null
+   row:[20 | Team Meeting | 157]
+[C5] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 158]
+[C6] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C7] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 22 | Name (TH) | Name (EN) | Nickname (TH) | Nickname (EN) | Email | 164 | Date to | Duration time | Remark]
+[C8] "Project portfolio" -> null
+   row:[20 | Project portfolio | 1.0 | นิชาภัทร สุวรรณวงษ์ | NICHAPHAT SUWANWONG | หมิว(จิ) | Mew(ji) | nichaphat.suw@axonstech.com | 44440.0 | 46191 | 4Y 9M 17D | Lead]
+[C10] "Knowledge base" -> null
+   row:[20 | Knowledge base | 3.0 | เกวลิน ชาญชนะโรจน์ | KEWALIN CHARNCHANAROJ | มาย | Mild | kewalin.cha@axonstech.com | 45170.0 | 46191 | 2Y 9M 17D]
+[C11] "Squad team" -> null
+   row:[20 | Squad team | 4 | นันทิชา พจนมณี | NANTICHAR POTCHANAMANEE | ปุ๊ก | Puk | nantichar.pot@axonstech.com | 45154.0 | 46191 | 2Y 10M 2D]
+[C15] "Sprint No" -> null
+   row:[20 | Sprint No | 7.0 | ศิรชัช เดชสูงเนิน | SIRACHAT DECHSUNGNOEN | กัน | Gun | sirachat.dec@axonstech.com | 44728.0 | 46191 | 4Y 0M 2D]
+[C16] "Azure board" -> null
+   row:[20 | Azure board]
+[C17] "Project Code" -> null
+   row:[20 | Project Code]
+[C18] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C20] "Product URL" -> null
+   row:[20 | Product URL]
+[C21] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C24] "HR" -> null
+   row:[20 | HR]
+[C25] "IT Support" -> null
+   row:[20 | IT Support]
+[C26] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C27] "PMO" -> null
+   row:[20 | PMO]
+[C28] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C29] "DM Food" -> null
+   row:[20 | DM Food]
+[C31] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C32] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C33] "IT Support" -> null
+   row:[20 | IT Support]
+[C34] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Knowledge base ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 31]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | Agile & UX/UI Process | Google Drive | Link | by Tum & Lemon]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | Agile & UX/UI Process | Google Drive | Link | by Tum & Lemon]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | 2025 AXONS UXUI - URLIndex - [Share] | Google Slide | Link | by Tum & Lemon]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | UX Writing update 2025 | Figma Slide | Link]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | UX Writing update 2025 | Figma Slide | Link]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4 | UX Writing - upper & lower case | Figma | Link]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4 | UX Writing - upper & lower case | Figma | Link]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5 | UX Writing - Punctuation | Figma | Link]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5 | UX Writing - Punctuation | Figma | Link]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 6 | UX Writing - Date & Time | Figma | Link]
+[I12] "Link" -> null
+   row:[20 | Tools & Template | 6 | UX Writing - Date & Time | Figma | Link]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 7 | UX Writing - Place & Location | Figma | Link]
+[I13] "Link" -> null
+   row:[20 | KPI activity log | 7 | UX Writing - Place & Location | Figma | Link]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort | 8 | UX Writing - Measurement | Figma | Link]
+[I14] "Link" -> null
+   row:[20 | Task & Effort | 8 | UX Writing - Measurement | Figma | Link]
+[C15] "Workload" -> null
+   row:[20 | Workload | 9 | UX Writing - Persona | Figma | Link]
+[I15] "Link" -> null
+   row:[20 | Workload | 9 | UX Writing - Persona | Figma | Link]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 10 | Wording Index - AXONS | Google Doc | Link]
+[I16] "Link" -> null
+   row:[20 | Team Meeting | 10 | Wording Index - AXONS | Google Doc | Link]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 11 | UX/UI Food F&S - Responsible Overview | Figjam | Link]
+[I17] "Link" -> null
+   row:[20 | Train & Workshop | 11 | UX/UI Food F&S - Responsible Overview | Figjam | Link]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 12 | AXONS Overall Process | PDF | Link]
+[I18] "Link" -> null
+   row:[20 | Knowledge Sharing | 12 | AXONS Overall Process | PDF | Link]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 13 | CSAT Sample Size Calculator | Website | Link]
+[I19] "Link" -> null
+   row:[20 | Trick & Tips | 13 | CSAT Sample Size Calculator | Website | Link]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio | 14 | AXONS UXUI Member & Figma Status | Google Sheet | Link | Secondary Link]
+[I20] "Link" -> null
+   row:[20 | Project portfolio | 14 | AXONS UXUI Member & Figma Status | Google Sheet | Link | Secondary Link]
+[J20] "Secondary Link" -> null
+   row:[20 | Project portfolio | 14 | AXONS UXUI Member & Figma Status | Google Sheet | Link | Secondary Link]
+[C21] "Others" -> null
+   row:[20 | Others | 15 | Zero Hight - AXONS AXIO | Website | Link]
+[I21] "Link" -> null
+   row:[20 | Others | 15 | Zero Hight - AXONS AXIO | Website | Link]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Tools & Template ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 261]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | Maze - Research & Test | Maze.co | Link | Username: axons.strategic.uxui@axonstech.com
+Password: AXONS@1459]
+[H7] "Maze.co" -> null
+   row:[📁 | Drive | 1.0 | Maze - Research & Test | Maze.co | Link | Username: axons.strategic.uxui@axonstech.com
+Password: AXONS@1459]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | Maze - Research & Test | Maze.co | Link | Username: axons.strategic.uxui@axonstech.com
+Password: AXONS@1459]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | 2025 AXONS UXUI - URLIndex - [Share] | Google Slide | Link | By P.Tum & Lamon]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | Wording Index - AXONS | Google Sheet | Link | By DWS]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | Wording Index - AXONS | Google Sheet | Link | By DWS]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4 | AXONS - AXIO React | Storybook | Link | By DWS]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4 | AXONS - AXIO React | Storybook | Link | By DWS]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5 | AXONS - AXIO Design System (Zeroheight) | Design Guide | Link | By DWS]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5 | AXONS - AXIO Design System (Zeroheight) | Design Guide | Link | By DWS]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 6 | AXONS - AXIO UX Writer : BaoBao | Chatgpt | Link | By DWS]
+[I12] "Link" -> null
+   row:[20 | Tools & Template | 6 | AXONS - AXIO UX Writer : BaoBao | Chatgpt | Link | By DWS]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort | 273]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 22 | Source Name | Platform | Link | Remark]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 1.0 | Template - Usability Test (ADS & SUS) | Google Drive | Link | By P.Mewji]
+[I17] "Link" -> null
+   row:[20 | Train & Workshop | 1.0 | Template - Usability Test (ADS & SUS) | Google Drive | Link | By P.Mewji]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 2 | Template - Google Analytic | Google Drive | Link | By P.Mewji]
+[I18] "Link" -> null
+   row:[20 | Knowledge Sharing | 2 | Template - Google Analytic | Google Drive | Link | By P.Mewji]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 3 | Template - CSAT & NPS | Google Drive | Link | By P.Mewji]
+[I19] "Link" -> null
+   row:[20 | Trick & Tips | 3 | Template - CSAT & NPS | Google Drive | Link | By P.Mewji]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio | 4 | Template - Multi-Language | Google Drive | Link | By P.Mewji]
+[I20] "Link" -> null
+   row:[20 | Project portfolio | 4 | Template - Multi-Language | Google Drive | Link | By P.Mewji]
+[C21] "Others" -> null
+   row:[20 | Others | 5 | UX Tools | Figjam | Link | By P.Mewji]
+[I21] "Link" -> null
+   row:[20 | Others | 5 | UX Tools | Figjam | Link | By P.Mewji]
+[I22] "Link" -> null
+   row:[🍽️ | Food Business Delivery | 6 | Template - Persona | Google Drive | Link | By P.Mewji]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base | 7 | Template - Google Analytic | Google Drive | Link | By P.Tum & Lamon]
+[I23] "Link" -> null
+   row:[20 | Knowledge base | 7 | Template - Google Analytic | Google Drive | Link | By P.Tum & Lamon]
+[C24] "Squad team" -> null
+   row:[20 | Squad team | 8 | Template - CSAT | Google Drive | Link | By P.Tum & Lamon]
+[I24] "Link" -> null
+   row:[20 | Squad team | 8 | Template - CSAT | Google Drive | Link | By P.Tum & Lamon]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No | 9 | Template - KANO Model | Google Drive | Link | By P.Tum & Lamon]
+[I25] "Link" -> null
+   row:[20 | Sprint No | 9 | Template - KANO Model | Google Drive | Link | By P.Tum & Lamon]
+[C26] "Azure board" -> null
+   row:[20 | Azure board | 10 | Template - Maze | Google Drive | Link | By P.Tum & Lamon]
+[I26] "Link" -> null
+   row:[20 | Azure board | 10 | Template - Maze | Google Drive | Link | By P.Tum & Lamon]
+[C27] "Project Code" -> null
+   row:[20 | Project Code | 11 | Template - Persona & Journey | Google Drive | Link | By P.Tum & Lamon]
+[I27] "Link" -> null
+   row:[20 | Project Code | 11 | Template - Persona & Journey | Google Drive | Link | By P.Tum & Lamon]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link | 12 | Template - Usability Test | Google Drive | Link | By P.Tum & Lamon]
+[I28] "Link" -> null
+   row:[20 | Project Doc & Link | 12 | Template - Usability Test | Google Drive | Link | By P.Tum & Lamon]
+[I29] "Link" -> null
+   row:[20 | Project timeline | 13 | Template - Usability Test on Maze | Google Drive | Link | By P.Tum & Lamon]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Team Meeting ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 310]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | Syn & Shine | Figjam | Link | All team]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | Syn & Shine | Figjam | Link | All team]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2.0 | Team Brainstorm | Figjam | Link]
+[C9] "Member" -> null
+   row:[20 | Member]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 314]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 22 | Source Name | Platform | Link | Remark]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 1.0 | UX/UI Design Critique | Google Sheet | Link | Queue booking for Design Critique]
+[I13] "Link" -> null
+   row:[20 | KPI activity log | 1.0 | UX/UI Design Critique | Google Sheet | Link | Queue booking for Design Critique]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload | 317]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 22 | Source Name | Platform | Link | Remark]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 1.0 | Thank god it's Friday | Figjam | Link]
+[I18] "Link" -> null
+   row:[20 | Knowledge Sharing | 1.0 | Thank god it's Friday | Figjam | Link]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Train & Workshop ##########
+[A1] "All project" -> null
+   row:[All project | Single Source of Truth : Maintenance &amp; PLM &amp; SHE&amp;En - Last update: 18/06/2025 | 321]
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 322]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | AXONS - Technical Academy | Webapp | Link | All team]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | AXONS - Technical Academy | Webapp | Link | All team]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2.0 | Training & Workshop - Folder | Figjam | Link | All team]
+[C9] "Member" -> null
+   row:[20 | Member]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 325]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 22 | Source Name | Platform | Link | Remark]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Design Repo ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 62]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | UI Index - UX/UI Food | Google Sheet | Link | UI Link by P.Mewji]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | UI Index - UX/UI Food | Google Sheet | Link | UI Link by P.Mewji]
+[C9] "Member" -> null
+   row:[20 | Member]
+[C10] "Outsource" -> null
+   row:[20 | Outsource]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Team Agreement ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[C4] "KPI activity log" -> null
+   row:[20 | KPI activity log | 360]
+[C5] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C6] "Workload" -> null
+   row:[20 | Workload | 22 | Source Name | Platform | Link | Remark]
+[C7] "Team Meeting" -> null
+   row:[20 | Team Meeting | 1.0 | Figma - File naming | Figma | Link]
+[I7] "Link" -> null
+   row:[20 | Team Meeting | 1.0 | Figma - File naming | Figma | Link]
+[C8] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 2 | Figma - Page naming | Figma | Link]
+[I8] "Link" -> null
+   row:[20 | Train & Workshop | 2 | Figma - Page naming | Figma | Link]
+[C9] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 3 | Figma - Flow structure & notation | Figma | Link]
+[I9] "Link" -> null
+   row:[20 | Knowledge Sharing | 3 | Figma - Flow structure & notation | Figma | Link]
+[C10] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 4 | Azure PBI/Task Naming | Figma | Link]
+[I10] "Link" -> null
+   row:[20 | Trick & Tips | 4 | Azure PBI/Task Naming | Figma | Link]
+[C11] "Project portfolio" -> null
+   row:[20 | Project portfolio | 5]
+[C12] "Others" -> null
+   row:[20 | Others]
+[C14] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C15] "Squad team" -> null
+   row:[20 | Squad team]
+[C16] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C17] "Azure board" -> null
+   row:[20 | Azure board]
+[C18] "Project Code" -> null
+   row:[20 | Project Code]
+[C19] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C21] "Product URL" -> null
+   row:[20 | Product URL]
+[C22] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C25] "HR" -> null
+   row:[20 | HR]
+[C26] "IT Support" -> null
+   row:[20 | IT Support]
+[C27] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C28] "PMO" -> null
+   row:[20 | PMO]
+[C29] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C30] "DM Food" -> null
+   row:[20 | DM Food]
+[C32] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C33] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C34] "IT Support" -> null
+   row:[20 | IT Support]
+[C35] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## UXUI - Others ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 63]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | UX conflict log | Figjam | Link | By P.Mewji]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | UX conflict log | Figjam | Link | By P.Mewji]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2.0 | UX/UI Delivery Process & Feedback PO | Figjam | Link | By P.Mewji]
+[C9] "Member" -> null
+   row:[20 | Member | 3.0 | Team Improvement | Figjam | Link | By P.Mewji]
+[I9] "Link" -> null
+   row:[20 | Member | 3.0 | Team Improvement | Figjam | Link | By P.Mewji]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4.0 | Intership Program | Figjam | Link | By P.Mewji]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4.0 | Intership Program | Figjam | Link | By P.Mewji]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5.0 | PDPA Process | Figjam | Link | By P.Mewji]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5.0 | PDPA Process | Figjam | Link | By P.Mewji]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 6.0 | Project Management - UX/UI Food | Figjam | Link | By P.Mewji]
+[I12] "Link" -> null
+   row:[20 | Tools & Template | 6.0 | Project Management - UX/UI Food | Figjam | Link | By P.Mewji]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 7.0 | Project TImeline - UX/UI Food - 2024 | Figjam | Link | By P.Mewji]
+[I13] "Link" -> null
+   row:[20 | KPI activity log | 7.0 | Project TImeline - UX/UI Food - 2024 | Figjam | Link | By P.Mewji]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## DM - Knowledge base  ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 31]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | AXONS Food | Powerpoint | Link | Overview (PowerPoint)]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | AXONS Food | Powerpoint | Link | Overview (PowerPoint)]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2.0 | Smart Factory | Powerpoint | Link]
+[C9] "Member" -> null
+   row:[20 | Member | 3.0 | Traceability | Powerpoint | Link]
+[I9] "Link" -> null
+   row:[20 | Member | 3.0 | Traceability | Powerpoint | Link]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4.0 | Further Process | Powerpoint | Link]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4.0 | Further Process | Powerpoint | Link]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5.0 | CPFIT Product | Webapp | Link]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5.0 | CPFIT Product | Webapp | Link]
+[J11] "https://cpfit.cpf.co.th/" -> null
+   row:[20 | Knowledge base | 5.0 | CPFIT Product | Webapp | Link]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 6.0 | Food Universe by Mewji | Figjam | Link]
+[I12] "Link" -> null
+   row:[20 | Tools & Template | 6.0 | Food Universe by Mewji | Figjam | Link]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 7 | AXONS Overall Process | PDF | Link]
+[I13] "Link" -> null
+   row:[20 | KPI activity log | 7 | AXONS Overall Process | PDF | Link]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## DM - Product URL ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 735]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | AXONS Factory - Portal (DEV) | Webapp | Link | Need VPN]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | AXONS Factory - Portal (DEV) | Webapp | Link | Need VPN]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | AXONS Factory - Portal (UAT) | Webapp | Link | Need VPN]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | AXONS Factory - Portal (PRD) | Webapp | Link]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | AXONS Factory - Portal (PRD) | Webapp | Link]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4 | B2B - Trancebility Blockchain | Webapp | Link | *Moss need to revamp]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4 | B2B - Trancebility Blockchain | Webapp | Link | *Moss need to revamp]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5 | AXONS Factory - Labelling (DEV) | Webapp | Link | DEV]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5 | AXONS Factory - Labelling (DEV) | Webapp | Link | DEV]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 6 | AXONS Factory - Labelling (UAT) | Webapp | Link | UAT]
+[I12] "Link" -> null
+   row:[20 | Tools & Template | 6 | AXONS Factory - Labelling (UAT) | Webapp | Link | UAT]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort | 746]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 22 | Source Name | Platform | Link | Remark]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 1.0 | AXONS PLM - Portal (DEV) | Webapp | Link]
+[I17] "Link" -> null
+   row:[20 | Train & Workshop | 1.0 | AXONS PLM - Portal (DEV) | Webapp | Link]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 2 | AXONS PLM - Portal (UAT) | Webapp | Link]
+[I18] "Link" -> null
+   row:[20 | Knowledge Sharing | 2 | AXONS PLM - Portal (UAT) | Webapp | Link]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 3 | AXONS PLM - Portal (PRD) | Webapp | -]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio | 4 | AXONS PLM - Web Admin (UAT) | Webapp | Link]
+[I20] "Link" -> null
+   row:[20 | Project portfolio | 4 | AXONS PLM - Web Admin (UAT) | Webapp | Link]
+[I21] "Link" -> null
+   row:[20 | Standard & Rule | 5 | AXONS Maintenance (DEV) | Webapp | Link]
+[C22] "Others" -> null
+   row:[20 | Others | 6 | AXONS Maintenance (UAT) | Webapp | Link]
+[I22] "Link" -> null
+   row:[20 | Others | 6 | AXONS Maintenance (UAT) | Webapp | Link]
+[I23] "Link" -> null
+   row:[🍽️ | Food Business Delivery | 7 | AXONS Maintenance (PRD) | Webapp | Link]
+[C24] "Knowledge base" -> null
+   row:[20 | Knowledge base | 8 | AXONS Maintenance - Perfect Shot (DEV) | Webapp | Link]
+[I24] "Link" -> null
+   row:[20 | Knowledge base | 8 | AXONS Maintenance - Perfect Shot (DEV) | Webapp | Link]
+[C25] "Squad team" -> null
+   row:[20 | Squad team | 9 | R&D Innovation (DEV) | Webapp | Link | Need VPN]
+[I25] "Link" -> null
+   row:[20 | Squad team | 9 | R&D Innovation (DEV) | Webapp | Link | Need VPN]
+[C26] "Sprint No" -> null
+   row:[20 | Sprint No | 10 | R&D Innovation (UAT) | Webapp | Link | Need VPN]
+[I26] "Link" -> null
+   row:[20 | Sprint No | 10 | R&D Innovation (UAT) | Webapp | Link | Need VPN]
+[C27] "Azure board" -> null
+   row:[20 | Azure board | 11 | R&D Innovation (PRD) | Webapp | Link]
+[I27] "Link" -> null
+   row:[20 | Azure board | 11 | R&D Innovation (PRD) | Webapp | Link]
+[C28] "Project Code" -> null
+   row:[20 | Project Code]
+[C29] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C31] "Product URL" -> null
+   row:[20 | Product URL]
+[C32] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C35] "HR" -> null
+   row:[20 | HR]
+[C36] "IT Support" -> null
+   row:[20 | IT Support]
+[C37] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C38] "PMO" -> null
+   row:[20 | PMO]
+[C39] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C40] "DM Food" -> null
+   row:[20 | DM Food]
+[C42] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C43] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C44] "IT Support" -> null
+   row:[20 | IT Support]
+[C45] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## DM - Analytic Tracking ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 735]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | AXONS Factory - Subcontract (DEV) | Google Analytic | Link]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | AXONS Factory - Subcontract (DEV) | Google Analytic | Link]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | AXONS Factory - Subcontract (UAT) | Google Analytic | Link]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | AXONS Factory - Subcontract (PRD) | Google Analytic | Link]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | AXONS Factory - Subcontract (PRD) | Google Analytic | Link]
+[C10] "Outsource" -> null
+   row:[20 | Outsource]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 746]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 22 | Source Name | Platform | Link | Remark]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort | 1.0 | AXONS PLM - iiForm (DEV) | Google Analytic | Link]
+[I14] "Link" -> null
+   row:[20 | Task & Effort | 1.0 | AXONS PLM - iiForm (DEV) | Google Analytic | Link]
+[C15] "Workload" -> null
+   row:[20 | Workload | 2 | AXONS PLM - iiForm (UAT) | Google Analytic | Link]
+[I15] "Link" -> null
+   row:[20 | Workload | 2 | AXONS PLM - iiForm (UAT) | Google Analytic | Link]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 3 | AXONS PLM - iiForm (PRD) | Google Analytic | Link]
+[I16] "Link" -> null
+   row:[20 | Team Meeting | 3 | AXONS PLM - iiForm (PRD) | Google Analytic | Link]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 4 | AXONS PLM - NPD (DEV) | Google Analytic | Link]
+[I17] "Link" -> null
+   row:[20 | Train & Workshop | 4 | AXONS PLM - NPD (DEV) | Google Analytic | Link]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing | 5 | AXONS PLM - NPD (UAT) | Google Analytic | Link]
+[I18] "Link" -> null
+   row:[20 | Knowledge Sharing | 5 | AXONS PLM - NPD (UAT) | Google Analytic | Link]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips | 6 | AXONS PLM - NPD (PRD) | Google Analytic | Link]
+[I19] "Link" -> null
+   row:[20 | Trick & Tips | 6 | AXONS PLM - NPD (PRD) | Google Analytic | Link]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio | 7 | AXONS PLM - SM (DEV) | Google Analytic | Link]
+[I20] "Link" -> null
+   row:[20 | Project portfolio | 7 | AXONS PLM - SM (DEV) | Google Analytic | Link]
+[C21] "Others" -> null
+   row:[20 | Others | 8 | AXONS PLM - SM (UAT) | Google Analytic | Link]
+[I21] "Link" -> null
+   row:[20 | Others | 8 | AXONS PLM - SM (UAT) | Google Analytic | Link]
+[I22] "Link" -> null
+   row:[🍽️ | Food Business Delivery | 9 | AXONS PLM - SM (PRD) | Google Analytic | Link]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base | 10 | AXONS PLM - Smart Product (DEV) | Google Analytic | Link]
+[I23] "Link" -> null
+   row:[20 | Knowledge base | 10 | AXONS PLM - Smart Product (DEV) | Google Analytic | Link]
+[C24] "Squad team" -> null
+   row:[20 | Squad team | 11 | AXONS PLM - Smart Product (UAT) | Google Analytic | Link]
+[I24] "Link" -> null
+   row:[20 | Squad team | 11 | AXONS PLM - Smart Product (UAT) | Google Analytic | Link]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No | 12 | AXONS PLM - Smart Product (PRD) | Google Analytic | Link]
+[I25] "Link" -> null
+   row:[20 | Sprint No | 12 | AXONS PLM - Smart Product (PRD) | Google Analytic | Link]
+[C26] "Azure board" -> null
+   row:[20 | Azure board | 13 | R&D Asset Management (DEV) | Google Analytic | Link]
+[I26] "Link" -> null
+   row:[20 | Azure board | 13 | R&D Asset Management (DEV) | Google Analytic | Link]
+[C27] "Project Code" -> null
+   row:[20 | Project Code | 14 | R&D Asset Management (UAT) | Google Analytic | Link]
+[I27] "Link" -> null
+   row:[20 | Project Code | 14 | R&D Asset Management (UAT) | Google Analytic | Link]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link | 15 | R&D Asset Management (PRD) | Google Analytic | Link]
+[I28] "Link" -> null
+   row:[20 | Project Doc & Link | 15 | R&D Asset Management (PRD) | Google Analytic | Link]
+[I29] "Link" -> null
+   row:[20 | Project timeline | 16 | AXONS Maintenance (PRD) | Google Analytic | Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL | 17 | AXONS Maintenance (PRD) | Google Analytic | Link]
+[I30] "Link" -> null
+   row:[20 | Product URL | 17 | AXONS Maintenance (PRD) | Google Analytic | Link]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## BOF - Self-Service ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 92]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | AXONS Self Service | Webapp | Link | Unlock user / Change or reset Password]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | AXONS Self Service | Webapp | Link | Unlock user / Change or reset Password]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | AXONS Change Password | Webapp | Link | Change password]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | CPF Connect | Webapp | Link]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | CPF Connect | Webapp | Link]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 4 | CPF Family | SAP Jam | Link | Everything about CPF (ค่อยเจาะๆมีทุกอย่าง)]
+[I10] "Link" -> null
+   row:[20 | Outsource | 4 | CPF Family | SAP Jam | Link | Everything about CPF (ค่อยเจาะๆมีทุกอย่าง)]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base | 5 | HR Exp | SuccessFactors | Link | Employee profile, Goal Setting & Performance]
+[I11] "Link" -> null
+   row:[20 | Knowledge base | 5 | HR Exp | SuccessFactors | Link | Employee profile, Goal Setting & Performance]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 6 | AXONS Helpdesk - Smart CR | Webapp | Link | Request for IT Support - เช่นขอ Google Account]
+[I12] "Link" -> null
+   row:[20 | Tools & Template | 6 | AXONS Helpdesk - Smart CR | Webapp | Link | Request for IT Support - เช่นขอ Google Account]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 7 | Smart iNurse | iNurse | Link | ขอใบส่งตัวไปโรงพยาบาล หรือ ตรวจสุขภาพประจำปี
+(Mobile App ก็มีนะ)]
+[I13] "Link" -> null
+   row:[20 | KPI activity log | 7 | Smart iNurse | iNurse | Link | ขอใบส่งตัวไปโรงพยาบาล หรือ ตรวจสุขภาพประจำปี
+(Mobile App ก็มีนะ)]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort | 8 | Smart Expense | SmartExpense | Link | เบิกค่าใช้จ่ายต่างๆ เช่น ค่าหาหมอแบบจ่ายเองไปก่อน ค่าเบี้ยเลี้ยง ค่าเดินทาง
+(Mobile App ก็มีนะ)]
+[I14] "Link" -> null
+   row:[20 | Task & Effort | 8 | Smart Expense | SmartExpense | Link | เบิกค่าใช้จ่ายต่างๆ เช่น ค่าหาหมอแบบจ่ายเองไปก่อน ค่าเบี้ยเลี้ยง ค่าเดินทาง
+(Mobile App ก็มีนะ)]
+[C15] "Workload" -> null
+   row:[20 | Workload | 9 | AXONS Sign | AXONS Sign | Link | สำหรับลงนามเอกสาร Electronic Signature]
+[I15] "Link" -> null
+   row:[20 | Workload | 9 | AXONS Sign | AXONS Sign | Link | สำหรับลงนามเอกสาร Electronic Signature]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 10 | PVD | Webapp | Link | สมัคร/จัดการกองทุนสำรองเลี้ยงชีพ]
+[I16] "Link" -> null
+   row:[20 | Team Meeting | 10 | PVD | Webapp | Link | สมัคร/จัดการกองทุนสำรองเลี้ยงชีพ]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## BOF - Payroll & Benefit ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 804]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | Request salary certificate (ขอเอกสารรับรองเงินเดือน) | HR Exp | Link | Ask HR หรือ My Profile > Action > Generate Document]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | Request salary certificate (ขอเอกสารรับรองเงินเดือน) | HR Exp | Link | Ask HR หรือ My Profile > Action > Generate Document]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | Monthly Saraly Check | SmartSlip (Mobile App) | Link]
+[C9] "Member" -> null
+   row:[20 | Member]
+[C10] "Outsource" -> null
+   row:[20 | Outsource | 809]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template | 22 | Source Name | Platform | Link | Remark]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log | 1.0 | 2567 Aunual Health Check - ไม่ต้องสำรองจ่าย | CPF Family | Link]
+[I13] "Link" -> null
+   row:[20 | KPI activity log | 1.0 | 2567 Aunual Health Check - ไม่ต้องสำรองจ่าย | CPF Family | Link]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort | 2 | 2567 Aunual Health Check - สำรองจ่าย แต่เบิกได้ทีหลัง | CPF Family | Link]
+[I14] "Link" -> null
+   row:[20 | Task & Effort | 2 | 2567 Aunual Health Check - สำรองจ่าย แต่เบิกได้ทีหลัง | CPF Family | Link]
+[C15] "Workload" -> null
+   row:[20 | Workload | 3 | 2567 Aunual Health Check - สำหรับครอบครัวพนักงาน (จ่ายเอง) | CPF Family | Link]
+[I15] "Link" -> null
+   row:[20 | Workload | 3 | 2567 Aunual Health Check - สำหรับครอบครัวพนักงาน (จ่ายเอง) | CPF Family | Link]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting | 4 | Smart iNurse | iNurse | Link | ขอใบส่งตัวไปโรงพยาบาล หรือ ตรวจสุขภาพประจำปี
+(Mobile App ก็มีนะ)]
+[I16] "Link" -> null
+   row:[20 | Team Meeting | 4 | Smart iNurse | iNurse | Link | ขอใบส่งตัวไปโรงพยาบาล หรือ ตรวจสุขภาพประจำปี
+(Mobile App ก็มีนะ)]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop | 5 | Smart Expense | SmartExpense | Link | เบิกค่าใช้จ่ายต่างๆ เช่น ค่าหาหมอแบบจ่ายเองไปก่อน ค่าเบี้ยเลี้ยง ค่าเดินทาง
+(Mobile App ก็มีนะ)]
+[I17] "Link" -> null
+   row:[20 | Train & Workshop | 5 | Smart Expense | SmartExpense | Link | เบิกค่าใช้จ่ายต่างๆ เช่น ค่าหาหมอแบบจ่ายเองไปก่อน ค่าเบี้ยเลี้ยง ค่าเดินทาง
+(Mobile App ก็มีนะ)]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## BOF - IT Support ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 84]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | Request salary certificate (ขอเอกสารรับรองเงินเดือน) | HR Exp | Link | Ask HR หรือ My Profile > Action > Generate Document]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | Request salary certificate (ขอเอกสารรับรองเงินเดือน) | HR Exp | Link | Ask HR หรือ My Profile > Action > Generate Document]
+[C9] "Member" -> null
+   row:[20 | Member]
+[C10] "Outsource" -> null
+   row:[20 | Outsource]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]
+
+
+########## BOF - Booking ##########
+[B2] "Home" -> null
+   row:[🏠 | Home]
+[B3] "Company goal" -> null
+   row:[🎯 | Company goal]
+[B4] "KPI & Responsibility" -> null
+   row:[📈 | KPI & Responsibility | 84]
+[B7] "Drive" -> null
+   row:[📁 | Drive | 1.0 | AXONS Booking | AXONS Booking | Link | จองห้องประชุม]
+[I7] "Link" -> null
+   row:[📁 | Drive | 1.0 | AXONS Booking | AXONS Booking | Link | จองห้องประชุม]
+[I8] "Link" -> null
+   row:[👾 | UX/UI universe | 2 | AXONS Queue | AXONS Queue | Link | ลงทะเบียนเข้าโรงงาน (ทำล่วงหน้า 1 วันหรือภายในวันนั้น)]
+[C9] "Member" -> null
+   row:[20 | Member | 3 | AXONS iRegist / vRegist | iRegist | Link | ลงทะเบียนเข้าโรงงานในเครือ CPF]
+[I9] "Link" -> null
+   row:[20 | Member | 3 | AXONS iRegist / vRegist | iRegist | Link | ลงทะเบียนเข้าโรงงานในเครือ CPF]
+[C10] "Outsource" -> null
+   row:[20 | Outsource]
+[C11] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C12] "Tools & Template" -> null
+   row:[20 | Tools & Template]
+[C13] "KPI activity log" -> null
+   row:[20 | KPI activity log]
+[C14] "Task & Effort" -> null
+   row:[20 | Task & Effort]
+[C15] "Workload" -> null
+   row:[20 | Workload]
+[C16] "Team Meeting" -> null
+   row:[20 | Team Meeting]
+[C17] "Train & Workshop" -> null
+   row:[20 | Train & Workshop]
+[C18] "Knowledge Sharing" -> null
+   row:[20 | Knowledge Sharing]
+[C19] "Trick & Tips" -> null
+   row:[20 | Trick & Tips]
+[C20] "Project portfolio" -> null
+   row:[20 | Project portfolio]
+[C21] "Others" -> null
+   row:[20 | Others]
+[C23] "Knowledge base" -> null
+   row:[20 | Knowledge base]
+[C24] "Squad team" -> null
+   row:[20 | Squad team]
+[C25] "Sprint No" -> null
+   row:[20 | Sprint No]
+[C26] "Azure board" -> null
+   row:[20 | Azure board]
+[C27] "Project Code" -> null
+   row:[20 | Project Code]
+[C28] "Project Doc & Link" -> null
+   row:[20 | Project Doc & Link]
+[C30] "Product URL" -> null
+   row:[20 | Product URL]
+[C31] "Analytic Tracking" -> null
+   row:[20 | Analytic Tracking]
+[C34] "HR" -> null
+   row:[20 | HR]
+[C35] "IT Support" -> null
+   row:[20 | IT Support]
+[C36] "Infrastructure" -> null
+   row:[20 | Infrastructure]
+[C37] "PMO" -> null
+   row:[20 | PMO]
+[C38] "Strategy (CoE)" -> null
+   row:[20 | Strategy (CoE)]
+[C39] "DM Food" -> null
+   row:[20 | DM Food]
+[C41] "Self-Service" -> null
+   row:[20 | Self-Service]
+[C42] "Payroll & Benefit" -> null
+   row:[20 | Payroll & Benefit]
+[C43] "IT Support" -> null
+   row:[20 | IT Support]
+[C44] "Booking" -> null
+   row:[20 | Booking]

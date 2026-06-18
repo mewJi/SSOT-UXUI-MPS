@@ -1,0 +1,375 @@
+
+
+##### 🎯 Company goal #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | I:•  Company goal
+r2: A:🏠
+r3: A:🎯
+r4: A:📈
+r5: A:👾
+r6: B:UX/UI universe  | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r7: B:• | F:1.0 | G:SharePoint - PMO Year Plan | H:SharePoint | I:Link | J:Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4  >> https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmithi%5Fc%5Faxonstech%5Fcom%2FDocuments%2Fsvr%2Dcpfpro%2FYear%20Plan&FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=0 , https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4
+r8: B:• | F:2.0 | G:Food - 2025 Year Plan | H:SharePoint | I:Link  >> https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmithi%5Fc%5Faxonstech%5Fcom%2FDocuments%2Fsvr%2Dcpfpro%2FYear%20Plan%2FYearPlan2025%2F1%2DRoad%20map%20Year%20Plan%202025%2F03%2DFood%20Business&FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=0
+r9: B:• | F:3.0 | G:Food - 2026 Year Plan | H:SharePoint | I:Link | J:Updated 18 Jun 2026 by Mewji  >> https://cpfito365-my.sharepoint.com/:f:/r/personal/smithi_c_axonstech_com/Documents/svr-cpfpro/Year%20Plan/YearPlan2026/1-%20Review%20%26%20Approve%20Year%20Plan%202026/1-Year%20Plan%20by%20DM%202026/03_Food%20Business?csf=1&web=1&e=Fzd0lT
+r10: B:•
+r11: B:•
+r12: B:•
+r13: B:•
+r14: B:•
+r15: B:•
+r16: B:•
+r17: B:•
+r18: B:•
+r19: A:🍽️ | B:•
+r20: B:Food Business Delivery
+r21: B:•
+r22: B:•
+r23: B:•
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:• | C:Project timeline
+r28: B:•
+r29: B:•
+r30: A:📞 | B:•
+r31: B:Contact
+r32: B:•
+r33: B:•
+r34: B:•
+r35: B:•
+r36: B:•
+r37: A:👩🏻‍💻 | B:•
+r38: B:Backoffice Service
+r39: B:•
+r40: B:•
+r41: B:•
+r42: A:🔀 | B:•
+
+
+##### 📈 KPI & Responsibility #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | I:•  KPI & Responsibility
+r2: A:🏠
+r3: A:🎯
+r4: A:📈
+r5: A:📢 | B:Annoucement
+r6: A:🗒️ | B:Minute of meeting | F:No. | G:Source Name | H:Platform | I:Link | J:Remark | K:Updated date
+r7: A:📁 | F:1.0 | G:UX/UI Role & Responsibility | H:Figjam | I:Link | J:Role & Responsibility  >> https://www.figma.com/board/eQhidQqNNAkhImWF5MSoFA/Single-source-of-truth?node-id=244-2755&t=BEnkqSyfWNdqIFQo-1
+r8: A:👾 | B:UX/UI universe  | F:2 | G:Dashboard - DM KPI | H:Power BI  | I:Link | J:For check DM KPI | K:46191.0  >> https://app.powerbi.com/groups/me/reports/e1b7e9cc-546c-47ca-8a9a-0395a0f40e9a/3d86bdfa4040a1ff955a/share?experience=power-bi
+r9: B:• | F:3 | G:Dashboard - UXUI KPI - 2024 | H:Lookerstudio | I:Link | J:For check UXUI KPI 2024  >> https://lookerstudio.google.com/u/0/reporting/cc89374b-ee0c-4e55-a60e-bbfc7f30bace/page/p_q1fp6xalfd
+r10: F:4.0 | G:Dashboard - UXUI KPI - 2025 | H:Lookerstudio | I:Link | J:For check UXUI KPI 2025 | K:46191.0  >> https://datastudio.google.com/u/0/reporting/de44d3a8-501a-4f64-87ed-9664751a6812/page/p_q1fp6xalfd
+r11: B:• | F:5.0 | G:2024 - KPI Goal Setting | H:Google Doc | I:Link | J:Edited by P.Mewji  >> https://docs.google.com/document/d/1HGAmn9JIYf7IwywGwLzNRwxKrtOdW8J4mI-VCoGMrRM/edit?tab=t.0
+r12: B:• | F:6.0 | G:2024 - เกณฑ์การประสิทธิภาพการปฏิบัติงาน (Efficiency) - KPI Evaluation 2024 - UX/UI  (Backup) | H:Google Slide | I:Link  >> https://docs.google.com/presentation/d/1soBHmjhljLyqnF3pCc6-gyTq2zXKmlobrBe5-dH7430/edit
+r13: F:7.0 | G:2024 KPI - Other role  | H:Google Sheet | I:Link  >> https://docs.google.com/spreadsheets/d/1FQNzeh--dA6Vl2CBrpvFnBBUEPvoElWv/edit?gid=1165382522
+r14: B:• | F:7.0 | G:2026 KPI - Other role  | H:Google Sheet | I:Link | K:46191.0  >> https://cpfito365.sharepoint.com/:x:/t/AXONSHRBP/IQD_CjoqFIjDTaHTrpH03okGAVmweffqH0Lnn3w2kzRVJxg?e=18aCct&wdExp=TEAMS-TREATMENT&web=1&TeamsCID=17c4137c-8087-4aa2-b3f2-f172fdefbfd6&isSPOFile=1&ovuser=8c308e15-1480-4168-aed7-b0f7a1352095%2Cnichaphat.suw%40axonstech.com&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNjA1MTQxNjcxNSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&linkOpenTime=1781774246768
+r15: F:8.0 | G:2025 - KPI Goal Setting | H:Google Doc | I:Link | J:By P.Tum  >> https://docs.google.com/document/d/1h5KMmWhMXrxWk6aG52fFbPC6ug2xEh53iqdITpme8Nw/edit?tab=t.0
+r16: B:• | F:9.0 | G:2026 - KPI Goal Setting | H:Google Doc | I:Link | J:By P.Tum | K:46191.0  >> https://docs.google.com/document/d/1M3vsUmwvQCeBeCAXKT9ovnAY94dkSLuNJzu-9mkL4IQ/edit?tab=t.0
+r17: B:•
+r18: B:• | F:Individual KPI - AXONS Factory & Sustainability
+r19: B:•
+r20: B:• | F:1.0 | G:KPI - Mean | H:Google Drive | I:Link | J:Only Mean can access | K:46191.0  >> https://drive.google.com/drive/folders/1DClYPHnJgu24x0jSS3TeGQNRTiZKodpO?usp=sharing
+r21: B:• | F:2 | G:KPI - Mild | H:Google Drive | I:Link | J:Only Mild can access | K:46191.0  >> https://drive.google.com/drive/folders/1MaBE-Fnxnf9Mv107V10YOCsjlS_ByMcb?usp=sharing
+r22: B:• | F:3 | G:KPI - Nack | H:Google Drive | I:Link | J:Only Nack can access | K:46191.0  >> https://drive.google.com/drive/folders/1fcLGTX-YnpppPu7HRKenfoqmxBSMHNYG?usp=sharing
+r23: B:• | F:4 | G:KPI - Namwaan | H:Google Drive | I:Link | J:Only P'Waan can access | K:46191.0  >> https://drive.google.com/drive/folders/1mmw5VkEtZsbp5e2Hm4mmmv34rHQ5C87-?usp=sharing
+r24: F:5.0 | G:KPI - Puk | H:Google Drive | I:Link | J:Only Puk can access | K:46191.0  >> https://docs.google.com/spreadsheets/d/1XV92cmJ3HLc5-FCJS0HGenl4pG7x4cvnU14lCOoCwmQ/edit?usp=sharing
+r25: B:• | F:6.0 | G:KPI - Gun (Secret member) | H:Google Drive | I:Link | J:Only Gun can access | K:46191.0  >> https://drive.google.com/drive/folders/18NV0rx2tAorjnMJKhBVWAG5ZEJu88eUH?usp=sharing
+r26: A:🍽️ | B:Food Business Delivery
+r27: B:•
+r28: B:•
+r29: B:•
+r30: B:•
+r31: B:•
+r32: B:•
+r33: B:• | C:Project timeline
+r34: B:•
+r35: B:•
+r36: B:•
+r37: A:📞 | B:Contact
+r38: B:•
+r39: B:•
+r40: B:•
+r41: B:•
+r42: B:•
+r43: B:•
+r44: A:👩🏻‍💻 | B:Backoffice Service
+r45: B:•
+r46: B:•
+r47: B:•
+r48: B:•
+r49: A:🔀
+
+
+##### UXUI - KPI activity log #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | I:•  KPI activity log
+r2: A:🏠
+r3: A:🎯
+r4: A:📈 | F:Task & Effort 
+r5: A:📢 | B:Annoucement
+r6: A:🗒️ | B:Minute of meeting | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r7: A:📁 | F:1.0 | G:2024 Activity Log - UX/UI Food | H:Figjam | I:Link | J:Activity Log for 2024  >> https://docs.google.com/spreadsheets/d/1FyNBhwNYVtJPEGhrFa3NR5joFDTkR7w3vtXeCcg7Ls0/edit?usp=drive_link
+r8: A:👾 | B:UX/UI universe  | F:2.0 | G:2025 Activity Log - AXONS Factory & Sustainability | H:Google Sheet | I:Link | J:Activity Log for 2025 - AXFS  >> https://docs.google.com/spreadsheets/d/1YTNLqzGomWokUibhYKspr2a5vV-QwZIgnGWwOAjc6ww/edit?usp=drive_link
+r9: B:• | F:3.0 | G:2025 Activity Log - AXONS Maintenance & PLM | H:Google Sheet | I:Link | J:Activity Log for 2025 - AXMP  >> https://docs.google.com/spreadsheets/d/1tXyT3QDGpBPHj8ZRByqbkNcbYEojvPx8nceo7JpqChk/edit?usp=drive_link
+r10: B:• | F:3.0 | G:AXONS - UXUI - SiteVisit - Log | H:Google Sheet | I:Link | J:by Tum & Lemon  >> https://docs.google.com/spreadsheets/d/1ydDeYQuzwhzvkG7u-Uah4gVwoZMiuKKpRvHYPeTdFQo/edit?gid=0
+r11: B:•
+r12: B:•
+r13: B:•
+r14: B:•
+r15: B:•
+r16: B:•
+r17: B:•
+r18: B:•
+r19: B:•
+r20: B:•
+r21: B:•
+r22: A:🍽️ | B:Food Business Delivery
+r23: B:•
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:•
+r28: B:•
+r29: B:• | C:Project timeline
+r30: B:•
+r31: B:•
+r32: B:•
+r33: A:📞 | B:Contact
+r34: B:•
+r35: B:•
+r36: B:•
+r37: B:•
+r38: B:•
+r39: B:•
+r40: A:👩🏻‍💻 | B:Backoffice Service
+r41: B:•
+r42: B:•
+r43: B:•
+r44: B:•
+r45: A:🔀
+
+
+##### Drive #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | I:•  Drive
+r2: A:🏠
+r3: A:🎯
+r4: A:📈 | F:Drive - UX/UI
+r5: A:📢 | B:Annoucement
+r6: A:🗒️ | B:Minute of meeting | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r7: A:📁 | F:1.0 | G:UX/UI - AXONS Factory | H:Google Drive | I:Link | J:Folder Stock for UT, GA, CSAT, Multi-Language, Persona  >> https://drive.google.com/drive/folders/155E_iosISBgYheeBSOvhryi-KDuVgkCR?usp=sharing
+r8: A:👾 | B:UX/UI universe  | F:2 | G:UX/UI - AXONS Maintenance | H:Google Drive | I:Link | J:Folder Stock for UT, GA, CSAT, Multi-Language, Persona  >> https://drive.google.com/drive/folders/150uvL1OSLfyemfG634t9SNkfHcQGlH6E?usp=drive_link
+r9: B:• | F:3 | G:UX/UI - AXONS PLM | H:Google Drive | I:Link | J:Folder Stock for UT, GA, CSAT, Multi-Language, Persona  >> https://drive.google.com/drive/folders/16gwGe6iyyPPQ8WLAloTSVzyV-kQUy9BM?usp=drive_link
+r10: B:• | F:4 | G:UX/UI - AXONS Tracebility | H:Google Drive | I:Link | J:Folder Stock for UT, GA, CSAT, Multi-Language, Persona  >> https://drive.google.com/drive/folders/1Aj4vjsTWM3dr2xbSzxyMk1qjeudfpoBD?usp=drive_link
+r11: B:• | F:5 | G:UX/UI - R&D Innovation | H:Google Drive | I:Link | J:Folder Stock for UT, GA, CSAT, Multi-Language, Persona  >> https://drive.google.com/drive/folders/1IOY27VV-RjNbWKvUPkhuRhNPMTCvkoEv?usp=drive_link
+r12: B:•
+r13: B:• | F:Drive - DM Food
+r14: B:•
+r15: B:• | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r16: B:• | F:1.0 | G:SharePoint - Food Business | H:SharePoint | I:Link  >> https://cpfito365.sharepoint.com/teams/03_FoodBusiness
+r17: B:• | F:2 | G:SharePoint - PMO Year Plan | H:SharePoint | I:Link | J:Link สำรอง: https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4  >> https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmithi%5Fc%5Faxonstech%5Fcom%2FDocuments%2Fsvr%2Dcpfpro%2FYear%20Plan&FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=0 , https://cpfito365-my.sharepoint.com/personal/smithi_c_axonstech_com/_layouts/15/onedrive.aspx?FolderCTID=0x0120003E8A3F3422453A46AB400D130224E94C&view=4
+r18: B:•
+r19: B:•
+r20: B:•
+r21: B:•
+r22: A:🍽️ | B:Food Business Delivery
+r23: B:•
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:•
+r28: B:•
+r29: B:• | C:Project timeline
+r30: B:•
+r31: B:•
+r32: B:•
+r33: A:📞 | B:Contact
+r34: B:•
+r35: B:•
+r36: B:•
+r37: B:•
+r38: B:•
+r39: B:•
+r40: A:👩🏻‍💻 | B:Backoffice Service
+r41: B:•
+r42: B:•
+r43: B:•
+r44: B:•
+r45: A:🔀
+
+
+##### UXUI - Member #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | J:•  Member
+r2: A:🏠
+r3: A:🎯
+r4: B:• | F:UX/UI Member - AXONS Maintenance & Product Life Cycle Management & SHE&En
+r5: B:• | F:Avenger member by P.Mewji  Link   |  Team Structure by P.Mewji  Link
+r6: B:•
+r7: B:• | F:No. | G:Name (TH) | H:Name (EN) | I:Nickname (TH) | J:Nickname (EN) | K:Email | N:Date from | O:Date to | P:Duration time | Q:Remark
+r8: B:• | F:1.0 | G:นิชาภัทร สุวรรณวงษ์ | H:NICHAPHAT SUWANWONG | I:หมิว(จิ) | J:Mew(ji) | K:nichaphat.suw@axonstech.com | N:44440.0 | O:46191 | P:4Y 9M 17D | Q:Lead
+r9: A:🍽️ | B:Food Business Delivery | F:2.0 | G:ธนพงศ์ กรณ์ทอง | H:TANAPONG KORNTONG | I:แน็ค | J:Nack | K:tanapong.kor@axonstech.com | N:45444.0 | O:46191 | P:2Y 0M 17D
+r10: B:• | F:3.0 | G:เกวลิน ชาญชนะโรจน์ | H:KEWALIN CHARNCHANAROJ | I:มาย | J:Mild | K:kewalin.cha@axonstech.com | N:45170.0 | O:46191 | P:2Y 9M 17D
+r11: B:• | F:4 | G:นันทิชา พจนมณี  | H:NANTICHAR POTCHANAMANEE | I:ปุ๊ก | J:Puk | K:nantichar.pot@axonstech.com | N:45154.0 | O:46191 | P:2Y 10M 2D
+r12: F:5.0 | G:มีน แก่นสังข์ | H:MEAN KEANSUNG | I:มีน | J:Mean | K:mean.kea@axonstech.com | N:44927.0 | O:46191 | P:3Y 5M 17D
+r13: F:6.0 | G:ชมพูนุช อังศุธรรมกิติ | H:CHOMPHUNUCH AUNGSUTAMKITI | I:น้ำหวาน | J:Namwaan | K:chomphunuch.aun@axonstech.com | N:45047.0 | O:46191 | P:3Y 1M 17D
+r14: F:Secret Member
+r15: B:• | F:7.0 | G:ศิรชัช เดชสูงเนิน | H:SIRACHAT DECHSUNGNOEN | I:กัน | J:Gun | K:sirachat.dec@axonstech.com | N:44728.0 | O:46191 | P:4Y 0M 2D
+r16: B:•
+r17: B:•
+r18: B:•
+r19: B:• | C:Project timeline
+r20: B:•
+r21: B:•
+r22: B:•
+r23: A:📞 | B:Contact
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:•
+r28: B:•
+r29: B:•
+r30: A:👩🏻‍💻 | B:Backoffice Service
+r31: B:•
+r32: B:•
+r33: B:•
+r34: B:•
+r35: A:🔀
+
+
+##### UXUI - Team Meeting #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | H:•  Team Meeting
+r2: A:🏠
+r3: A:🎯
+r4: A:📈 | F:Sync & Shine
+r5: A:📢 | B:Annoucement
+r6: A:🗒️ | B:Minute of meeting | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r7: A:📁 | F:1.0 | G:Syn & Shine | H:Figjam | I:Link | J:All team  >> https://www.figma.com/board/4QnwmLflrjkKqkEhAyhBsF/%F0%9F%94%97-Sync-%26-%E2%9C%A8-Shine?t=zhwp0Vr9ZoHH1joO-6
+r8: A:👾 | B:UX/UI universe  | F:2.0 | G:Team Brainstorm | H:Figjam | I:Link  >> https://www.figma.com/board/BinycezZUv8S8PX9dvYJLP/Team-Brainstorm-%F0%9F%A7%A0?node-id=0-1&t=rmLg8U7SYBCCWqcS-1
+r9: B:•
+r10: B:• | F:Design Critique
+r11: B:•
+r12: B:• | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r13: B:• | F:1.0 | G:UX/UI Design Critique | H:Google Sheet | I:Link | J:Queue booking for Design Critique  >> https://docs.google.com/spreadsheets/d/18FnH7ebMy9iaGJtuYOgiXKx9PRgBjXKtjDIap_ex5T8/edit?usp=drive_link
+r14: B:•
+r15: B:• | F:Thank god It's Friday
+r16: B:• | C:Team Ceremony
+r17: B:• | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r18: B:• | F:1.0 | G:Thank god it's Friday | H:Figjam | I:Link  >> https://www.figma.com/board/2nrjn6jcxT2ttGGicwm2tX/Thank-god-it's-Friday-%F0%9F%8E%89?node-id=1686-2593&t=AEZc6vCk5UD2LdZa-1
+r19: B:•
+r20: B:•
+r21: B:•
+r22: A:🍽️ | B:Food Business Delivery
+r23: B:•
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:•
+r28: B:•
+r29: B:• | C:Project timeline
+r30: B:•
+r31: B:•
+r32: B:•
+r33: A:📞 | B:Contact
+r34: B:•
+r35: B:•
+r36: B:•
+r37: B:•
+r38: B:•
+r39: B:•
+r40: A:👩🏻‍💻 | B:Backoffice Service
+r41: B:•
+r42: B:•
+r43: B:•
+r44: B:•
+r45: A:🔀
+
+
+##### UXUI - Train & Workshop #####
+r1: A:All project | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | H:•  Train & Workshop
+r2: A:🏠
+r3: A:🎯
+r4: A:📈 | F:Traning
+r5: A:📢 | B:Annoucement
+r6: A:🗒️ | B:Minute of meeting | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r7: A:📁 | F:1.0 | G:AXONS - Technical Academy | H:Webapp | I:Link | J:All team  >> https://learning.axonstech.com/academy
+r8: A:👾 | B:UX/UI universe  | F:2.0 | G:Training & Workshop - Folder | H:Figjam | I:Link | J:All team  >> https://www.figma.com/files/1025766078909492624/project/210889784/Training-%26-Workshop?fuid=1235751279162254141
+r9: B:•
+r10: B:• | F:Workshop
+r11: B:•
+r12: B:• | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r13: B:•
+r14: B:•
+r15: B:•
+r16: B:•
+r17: B:•
+r18: B:•
+r19: B:•
+r20: B:•
+r21: B:•
+r22: A:🍽️ | B:Food Business Delivery
+r23: B:•
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:•
+r28: B:•
+r29: B:• | C:Project timeline
+r30: B:•
+r31: B:•
+r32: B:•
+r33: A:📞 | B:Contact
+r34: B:•
+r35: B:•
+r36: B:•
+r37: B:•
+r38: B:•
+r39: B:•
+r40: A:👩🏻‍💻 | B:Backoffice Service
+r41: B:•
+r42: B:•
+r43: B:•
+r44: B:•
+r45: A:🔀
+
+
+##### UXUI - Design Repo #####
+r1: A:SSOT - AXFS | E:Single Source of Truth : Maintenance & PLM & SHE&En - Last update: 18/06/2025 | H:•  Project portfolio
+r2: A:🏠
+r3: A:🎯
+r4: A:📈
+r5: A:📢 | B:Annoucement
+r6: A:🗒️ | B:Minute of meeting | F:No. | G:Source Name | H:Platform | I:Link | J:Remark
+r7: A:📁 | F:1.0 | G:UI Index - UX/UI Food | H:Google Sheet | I:Link | J:UI Link by P.Mewji  >> https://docs.google.com/spreadsheets/d/1KwzLgauOUTg9bt2ElE8ExCK9K1VpTW4h-bkComB_Wo0/edit?usp=drive_link
+r8: A:👾 | B:UX/UI universe 
+r9: B:•
+r10: B:•
+r11: B:•
+r12: B:•
+r13: B:•
+r14: B:•
+r15: B:•
+r16: B:•
+r17: B:•
+r18: B:•
+r19: B:•
+r20: B:•
+r21: B:•
+r22: A:🍽️ | B:Food Business Delivery
+r23: B:•
+r24: B:•
+r25: B:•
+r26: B:•
+r27: B:•
+r28: B:•
+r29: B:• | C:Project timeline
+r30: B:•
+r31: B:•
+r32: B:•
+r33: A:📞 | B:Contact
+r34: B:•
+r35: B:•
+r36: B:•
+r37: B:•
+r38: B:•
+r39: B:•
+r40: A:👩🏻‍💻 | B:Backoffice Service
+r41: B:•
+r42: B:•
+r43: B:•
+r44: B:•
+r45: A:🔀

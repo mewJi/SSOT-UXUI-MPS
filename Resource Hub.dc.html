@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#FAF9F6">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#FAF9F6"/>
+    <rect x="450" y="250" width="300" height="300" rx="80" fill="url(#g)"/>
+    <text x="600" y="490" font-size="180" text-anchor="middle" font-family="system-ui,sans-serif">🧭</text>
+    <rect x="430" y="600" width="340" height="36" rx="18" fill="#EBE8E2"/>
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#C9BCF0"/>
+        <stop offset="1" stop-color="#A7D8C2"/>
+      </linearGradient>
+    </defs>
+  </svg>
+</template>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;}
+    html,body{margin:0;padding:0;}
+    body{font-family:'Anuphan',-apple-system,system-ui,sans-serif;background:#FAF9F6;color:#2E2A33;-webkit-font-smoothing:antialiased;}
+    ::placeholder{color:#B7B2BD;}
+    input,select,button,textarea{font-family:inherit;color:inherit;}
+    a{color:inherit;}
+    ::-webkit-scrollbar{width:10px;height:10px;}
+    ::-webkit-scrollbar-thumb{background:#E2DFD8;border-radius:8px;}
+  </style>
+  <script src="hub-seed.js"></script>
+</helmet>
+<div style="min-height:100vh;background:#FAF9F6;">
+  <div style="max-width:1060px;margin:0 auto;padding:30px 24px 96px;">
+
+    <!-- Top bar -->
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:34px;">
+      <div style="display:flex;align-items:center;gap:13px;">
+        <div style="width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,#C9BCF0,#A7D8C2);display:flex;align-items:center;justify-content:center;font-size:21px;">🧭</div>
+        <div>
+          <div style="font-size:19px;font-weight:700;letter-spacing:-0.01em;line-height:1.1;">UX/UI Resource Hub</div>
+          <div style="font-size:12.5px;color:#9A949F;font-weight:500;margin-top:2px;">Single Source of Truth · ศูนย์รวมลิงก์ของทีม</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <button onClick="{{ toggleManage }}" style="{{ manageBtnStyle }}">{{ manageLabel }}</button>
+        <button onClick="{{ openAdd }}" style="display:flex;align-items:center;gap:6px;padding:9px 16px;border:none;border-radius:11px;background:#2E2A33;color:#fff;font-size:13.5px;font-weight:600;cursor:pointer;">＋ เพิ่มลิงก์</button>
+      </div>
+    </div>
+
+    <!-- Hero search -->
+    <div style="position:relative;margin-bottom:18px;">
+      <div style="position:absolute;left:20px;top:50%;transform:translateY(-50%);font-size:19px;opacity:0.55;">🔍</div>
+      <input value="{{ query }}" onInput="{{ setQuery }}" placeholder="ค้นหา resource, ชื่อเอกสาร, แพลตฟอร์ม หรือหมวดหมู่…" style="width:100%;padding:18px 20px 18px 54px;font-size:16px;font-weight:500;border:1.5px solid #EBE8E2;border-radius:16px;background:#fff;outline:none;box-shadow:0 1px 2px rgba(0,0,0,0.02);" />
+      <sc-if value="{{ hasQuery }}" hint-placeholder-val="{{ false }}">
+        <button onClick="{{ clearQuery }}" style="position:absolute;right:16px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:8px;border:none;background:#F1EFEA;color:#8A8590;font-size:15px;cursor:pointer;">✕</button>
+      </sc-if>
+    </div>
+
+    <!-- Group chips -->
+    <div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:30px;">
+      <sc-for list="{{ chips }}" as="chip" hint-placeholder-count="4">
+        <button onClick="{{ chip.onClick }}" style="{{ chip.style }}">
+          <sc-if value="{{ chip.dot }}" hint-placeholder-val="{{ false }}"><span style="{{ chip.dotStyle }}"></span></sc-if>
+          {{ chip.label }}<span style="opacity:0.5;margin-left:2px;font-weight:500;">{{ chip.count }}</span>
+        </button>
+      </sc-for>
+    </div>
+
+    <!-- SEARCH RESULTS -->
+    <sc-if value="{{ isSearching }}" hint-placeholder-val="{{ true }}">
+      <div>
+        <div style="font-size:13px;color:#9A949F;font-weight:600;margin-bottom:14px;">พบ {{ resultCount }} รายการสำหรับ “{{ query }}”</div>
+        <sc-for list="{{ results }}" as="item" hint-placeholder-count="5">
+          <a href="{{ item.url }}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:14px;padding:13px 15px;background:#fff;border:1px solid #ECEAE4;border-radius:14px;text-decoration:none;margin-bottom:9px;">
+            <div style="flex:none;width:42px;height:42px;border-radius:11px;background:{{ item.monoBg }};color:{{ item.monoFg }};display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;">{{ item.mono }}</div>
+            <div style="flex:1;min-width:0;">
+              <div style="font-size:14.5px;font-weight:600;line-height:1.3;">{{ item.title }}</div>
+              <div style="display:flex;align-items:center;gap:8px;margin-top:4px;flex-wrap:wrap;">
+                <span style="font-size:11px;font-weight:600;color:{{ item.monoFg }};background:{{ item.monoBg }};padding:2px 8px;border-radius:6px;">{{ item.category }}</span>
+                <span style="font-size:11.5px;color:#A39DA8;font-weight:500;">{{ item.platform }}</span>
+                <span style="font-size:11.5px;color:#C2BDC6;">·</span>
+                <span style="font-size:11.5px;color:#B0AAB4;font-weight:500;">{{ item.host }}</span>
+              </div>
+            </div>
+            <div style="flex:none;display:flex;align-items:center;gap:8px;">
+              <sc-if value="{{ manage }}" hint-placeholder-val="{{ false }}">
+                <button onClick="{{ item.onEdit }}" style="width:32px;height:32px;border-radius:9px;border:1px solid #ECEAE4;background:#fff;cursor:pointer;font-size:13px;">✎</button>
+                <button onClick="{{ item.onDelete }}" style="width:32px;height:32px;border-radius:9px;border:1px solid #F3DEDE;background:#fff;color:#C97A7A;cursor:pointer;font-size:13px;">🗑</button>
+              </sc-if>
+              <span style="font-size:15px;color:#BBB6BF;">↗</span>
+            </div>
+          </a>
+        </sc-for>
+        <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+          <div style="text-align:center;padding:60px 20px;color:#A39DA8;">
+            <div style="font-size:34px;margin-bottom:10px;">🍃</div>
+            <div style="font-size:15px;font-weight:600;">ไม่พบผลลัพธ์</div>
+            <div style="font-size:13px;margin-top:4px;">ลองคำค้นอื่น หรือเพิ่มลิงก์ใหม่เข้าไปได้เลย</div>
+          </div>
+        </sc-if>
+      </div>
+    </sc-if>
+
+    <!-- BROWSE -->
+    <sc-if value="{{ isBrowsing }}" hint-placeholder-val="{{ true }}">
+      <div>
+        <sc-for list="{{ sections }}" as="sec" hint-placeholder-count="6">
+          <div style="margin-bottom:30px;">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:13px;">
+              <span style="width:9px;height:9px;border-radius:50%;background:{{ sec.accent }};flex:none;"></span>
+              <span style="font-size:15.5px;font-weight:700;letter-spacing:-0.01em;">{{ sec.category }}</span>
+              <span style="font-size:11.5px;color:#ACA6B0;font-weight:600;background:#F1EFEA;padding:2px 8px;border-radius:20px;">{{ sec.count }}</span>
+              <span style="font-size:11px;color:#C0BBC4;font-weight:500;">{{ sec.group }}</span>
+              <span style="flex:1;"></span>
+              <sc-if value="{{ manage }}" hint-placeholder-val="{{ false }}">
+                <button onClick="{{ sec.onAdd }}" style="font-size:12px;font-weight:600;color:#8A8590;border:1px dashed #D8D4CD;background:#fff;border-radius:9px;padding:5px 11px;cursor:pointer;">＋ เพิ่มในหมวดนี้</button>
+              </sc-if>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:9px;">
+              <sc-for list="{{ sec.items }}" as="item" hint-placeholder-count="3">
+                <a href="{{ item.url }}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:13px;padding:12px 14px;background:#fff;border:1px solid #ECEAE4;border-radius:13px;text-decoration:none;">
+                  <div style="flex:none;width:38px;height:38px;border-radius:10px;background:{{ item.monoBg }};color:{{ item.monoFg }};display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;">{{ item.mono }}</div>
+                  <div style="flex:1;min-width:0;">
+                    <div style="font-size:13.5px;font-weight:600;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{ item.title }}</div>
+                    <div style="font-size:11.5px;color:#A39DA8;font-weight:500;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{ item.subline }}</div>
+                  </div>
+                  <sc-if value="{{ manage }}" hint-placeholder-val="{{ false }}">
+                    <button onClick="{{ item.onEdit }}" style="flex:none;width:30px;height:30px;border-radius:8px;border:1px solid #ECEAE4;background:#fff;cursor:pointer;font-size:12px;">✎</button>
+                    <button onClick="{{ item.onDelete }}" style="flex:none;width:30px;height:30px;border-radius:8px;border:1px solid #F3DEDE;background:#fff;color:#C97A7A;cursor:pointer;font-size:12px;">🗑</button>
+                  </sc-if>
+                  <sc-if value="{{ notManage }}" hint-placeholder-val="{{ true }}"><span style="flex:none;font-size:14px;color:#C7C2CB;">↗</span></sc-if>
+                </a>
+              </sc-for>
+            </div>
+          </div>
+        </sc-for>
+
+        <sc-if value="{{ manage }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <button onClick="{{ openAddTopic }}" style="flex:1;min-width:200px;padding:15px;border:1.5px dashed #D8D4CD;background:#fff;border-radius:14px;color:#8A8590;font-size:14px;font-weight:600;cursor:pointer;">＋ เพิ่มหัวข้อ / หมวดหมู่</button>
+            <button onClick="{{ openAddGroup }}" style="flex:1;min-width:200px;padding:15px;border:1.5px dashed #D8D4CD;background:#fff;border-radius:14px;color:#8A8590;font-size:14px;font-weight:600;cursor:pointer;">＋ เพิ่มกลุ่มใหม่</button>
+          </div>
+        </sc-if>
+      </div>
+    </sc-if>
+
+  </div>
+
+  <!-- MODAL: link -->
+  <sc-if value="{{ modalLink }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeModal }}" style="position:fixed;inset:0;background:rgba(46,42,51,0.34);display:flex;align-items:center;justify-content:center;padding:20px;z-index:50;">
+      <div onClick="{{ stop }}" style="width:100%;max-width:440px;background:#fff;border-radius:20px;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,0.18);">
+        <div style="font-size:17px;font-weight:700;margin-bottom:18px;">{{ formHeading }}</div>
+        <div style="display:flex;flex-direction:column;gap:13px;">
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">ชื่อเอกสาร / รายการ</div>
+            <input value="{{ form.title }}" onInput="{{ setTitle }}" placeholder="เช่น 2026 KPI Goal Setting" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;" />
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">ลิงก์ (URL)</div>
+            <input value="{{ form.url }}" onInput="{{ setUrl }}" placeholder="https://…" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;" />
+          </div>
+          <div style="display:flex;gap:11px;">
+            <div style="flex:1;">
+              <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">กลุ่ม</div>
+              <select value="{{ form.group }}" onChange="{{ setGroup }}" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;background:#fff;">
+                <sc-for list="{{ groupOptions }}" as="g" hint-placeholder-count="3"><option value="{{ g.name }}">{{ g.name }}</option></sc-for>
+              </select>
+            </div>
+            <div style="flex:1;">
+              <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">แพลตฟอร์ม</div>
+              <input value="{{ form.platform }}" onInput="{{ setPlatform }}" placeholder="เช่น Figma" list="platlist" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;" />
+            </div>
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">หมวดหมู่ (หัวข้อเรื่อง)</div>
+            <input value="{{ form.category }}" onInput="{{ setCategory }}" placeholder="เลือกหรือพิมพ์หมวดใหม่" list="catlist" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;" />
+            <datalist id="catlist"><sc-for list="{{ catNames }}" as="c" hint-placeholder-count="0"><option value="{{ c }}"></option></sc-for></datalist>
+            <datalist id="platlist"><sc-for list="{{ platNames }}" as="p" hint-placeholder-count="0"><option value="{{ p }}"></option></sc-for></datalist>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:22px;">
+          <sc-if value="{{ canDelete }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ deleteCurrent }}" style="padding:11px 14px;border:1px solid #F3DEDE;background:#fff;color:#C97A7A;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;">ลบ</button>
+          </sc-if>
+          <span style="flex:1;"></span>
+          <button onClick="{{ closeModal }}" style="padding:11px 18px;border:1px solid #EBE8E2;background:#fff;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;">ยกเลิก</button>
+          <button onClick="{{ saveLink }}" style="{{ saveBtnStyle }}">บันทึก</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- MODAL: topic -->
+  <sc-if value="{{ modalTopic }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeModal }}" style="position:fixed;inset:0;background:rgba(46,42,51,0.34);display:flex;align-items:center;justify-content:center;padding:20px;z-index:50;">
+      <div onClick="{{ stop }}" style="width:100%;max-width:400px;background:#fff;border-radius:20px;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,0.18);">
+        <div style="font-size:17px;font-weight:700;margin-bottom:18px;">เพิ่มหัวข้อใหม่</div>
+        <div style="display:flex;flex-direction:column;gap:13px;">
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">ชื่อหัวข้อ / หมวดหมู่</div>
+            <input value="{{ form.category }}" onInput="{{ setCategory }}" placeholder="เช่น Research Repository" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;" />
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">อยู่ในกลุ่ม</div>
+            <select value="{{ form.group }}" onChange="{{ setGroup }}" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;background:#fff;">
+              <sc-for list="{{ groupOptions }}" as="g" hint-placeholder-count="3"><option value="{{ g.name }}">{{ g.name }}</option></sc-for>
+            </select>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:22px;">
+          <span style="flex:1;"></span>
+          <button onClick="{{ closeModal }}" style="padding:11px 18px;border:1px solid #EBE8E2;background:#fff;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;">ยกเลิก</button>
+          <button onClick="{{ saveTopic }}" style="{{ saveTopicBtnStyle }}">เพิ่มหัวข้อ</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- MODAL: group -->
+  <sc-if value="{{ modalGroup }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeModal }}" style="position:fixed;inset:0;background:rgba(46,42,51,0.34);display:flex;align-items:center;justify-content:center;padding:20px;z-index:50;">
+      <div onClick="{{ stop }}" style="width:100%;max-width:400px;background:#fff;border-radius:20px;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,0.18);">
+        <div style="font-size:17px;font-weight:700;margin-bottom:6px;">เพิ่มกลุ่มใหม่</div>
+        <div style="font-size:12.5px;color:#9A949F;margin-bottom:18px;">กลุ่มใช้จัดกลุ่มของหัวข้อ และจะได้สีพาสเทลอัตโนมัติ</div>
+        <div>
+          <div style="font-size:12px;font-weight:600;color:#8A8590;margin-bottom:5px;">ชื่อกลุ่ม</div>
+          <input value="{{ form.name }}" onInput="{{ setName }}" placeholder="เช่น Research, Brand, Ops" style="width:100%;padding:11px 13px;border:1.5px solid #EBE8E2;border-radius:11px;font-size:14px;outline:none;" />
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:22px;">
+          <span style="flex:1;"></span>
+          <button onClick="{{ closeModal }}" style="padding:11px 18px;border:1px solid #EBE8E2;background:#fff;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;">ยกเลิก</button>
+          <button onClick="{{ saveGroup }}" style="{{ saveGroupBtnStyle }}">เพิ่มกลุ่ม</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1060,&quot;height&quot;:820}}">
+class Component extends DCLogic {
+  state = { items: [], extraCats: [], groups: [], query: '', group: 'all', manage: false, modal: null, form: null, loaded: false };
+
+  DEFAULT_GROUPS = [
+    { name: 'UX/UI', soft: '#EFEAFB', accent: '#7C6BD0' },
+    { name: 'Design Management', soft: '#E1F1E8', accent: '#3F9E72' },
+    { name: 'Backoffice', soft: '#FBE8DA', accent: '#CC7E4A' }
+  ];
+  PALETTE = [
+    ['#EFEAFB','#7C6BD0'],['#E1F1E8','#3F9E72'],['#FBE8DA','#CC7E4A'],
+    ['#E5EFFB','#5B8CC9'],['#FBE5EE','#C96D97'],['#FBF4DA','#B79A3F'],
+    ['#E3F3F4','#4A9CA3'],['#EDE9E3','#8A8276'],['#E9F0DD','#7A9A4E']
+  ];
+
+  componentDidMount() { this.load(); }
+
+  load() {
+    const seed = window.HUB_SEED;
+    if (!seed) { setTimeout(() => this.load(), 60); return; }
+    let saved = null;
+    try { saved = JSON.parse(localStorage.getItem('uxui_hub_v1') || 'null'); } catch (e) {}
+    const groups = (saved && Array.isArray(saved.groups) && saved.groups.length) ? saved.groups : this.DEFAULT_GROUPS.map(g => ({ ...g }));
+    if (saved && Array.isArray(saved.items)) {
+      this.setState({ items: saved.items, extraCats: saved.extraCats || [], groups, loaded: true });
+    } else {
+      this.setState({ items: seed.map(x => ({ ...x })), extraCats: [], groups, loaded: true });
+    }
+  }
+
+  persist(items, extraCats, groups) {
+    groups = groups || this.state.groups;
+    try { localStorage.setItem('uxui_hub_v1', JSON.stringify({ items, extraCats, groups })); } catch (e) {}
+  }
+
+  gm(group) { return (this.state.groups || []).find(g => g.name === group) || { soft: '#F1EFEA', accent: '#8A8590' }; }
+
+  decorate(it) {
+    const m = this.gm(it.group);
+    let host = '';
+    try { host = new URL(it.url).hostname.replace(/^www\./, ''); } catch (e) { host = ''; }
+    const base = (it.platform || it.title || '?').trim();
+    const mono = base.replace(/[^A-Za-z0-9ก-๙]/g, '').slice(0, 2).toUpperCase() || '•';
+    const sub = [it.platform, it.remark].filter(Boolean).join(' · ') || host;
+    return { ...it, host, mono, monoBg: m.soft, monoFg: m.accent, subline: sub,
+      onEdit: (e) => { if (e) { e.preventDefault(); e.stopPropagation(); } this.openEdit(it); },
+      onDelete: (e) => { if (e) { e.preventDefault(); e.stopPropagation(); } this.del(it.id); } };
+  }
+
+  // ---- mutations ----
+  toggleManage = () => this.setState(s => ({ manage: !s.manage }));
+  setQuery = (e) => this.setState({ query: e.target.value });
+  clearQuery = () => this.setState({ query: '' });
+  setGroupFilter(g) { this.setState({ group: g }); }
+
+  openAdd = () => this.setState({ modal: 'link', form: { id: null, title: '', url: '', platform: '', group: 'UX/UI', category: '' } });
+  openAddIn(group, category) { this.setState({ modal: 'link', form: { id: null, title: '', url: '', platform: '', group, category } }); }
+  openEdit(it) { this.setState({ modal: 'link', form: { ...it } }); }
+  openAddTopic = () => this.setState({ modal: 'topic', form: { category: '', group: (this.state.groups[0] || {}).name || 'UX/UI' } });
+  openAddGroup = () => this.setState({ modal: 'group', form: { name: '' } });
+  saveGroup = () => {
+    const f = this.state.form;
+    if (!f || !f.name.trim()) return;
+    const name = f.name.trim();
+    if (this.state.groups.some(g => g.name === name)) { this.setState({ modal: null, form: null, group: name }); return; }
+    const pair = this.PALETTE[this.state.groups.length % this.PALETTE.length];
+    const groups = [...this.state.groups, { name, soft: pair[0], accent: pair[1] }];
+    this.persist(this.state.items, this.state.extraCats, groups);
+    this.setState({ groups, modal: null, form: null, group: name });
+  };
+  closeModal = () => this.setState({ modal: null, form: null });
+  stop = (e) => { if (e) e.stopPropagation(); };
+
+  setField(field, v) { this.setState(s => ({ form: { ...s.form, [field]: v } })); }
+  setTitle = (e) => this.setField('title', e.target.value);
+  setUrl = (e) => this.setField('url', e.target.value);
+  setPlatform = (e) => this.setField('platform', e.target.value);
+  setCategory = (e) => this.setField('category', e.target.value);
+  setGroup = (e) => this.setField('group', e.target.value);
+  setName = (e) => this.setField('name', e.target.value);
+
+  saveLink = () => {
+    const f = this.state.form;
+    if (!f || !f.title.trim() || !f.url.trim()) return;
+    let url = f.url.trim();
+    if (!/^https?:\/\//i.test(url) && !/^mailto:/i.test(url)) url = 'https://' + url;
+    const rec = { title: f.title.trim(), url, platform: (f.platform || '').trim(),
+      remark: (f.remark || '').trim(), group: f.group, category: (f.category || 'Others').trim() };
+    let items;
+    if (f.id) {
+      items = this.state.items.map(it => it.id === f.id ? { ...it, ...rec, id: f.id } : it);
+    } else {
+      const nextId = this.state.items.reduce((m, it) => Math.max(m, it.id || 0), 0) + 1;
+      items = [...this.state.items, { id: nextId, ...rec }];
+    }
+    this.persist(items, this.state.extraCats);
+    this.setState({ items, modal: null, form: null });
+  };
+
+  del(id) {
+    if (!window.confirm('ลบลิงก์นี้ออกจาก Hub?')) return;
+    const items = this.state.items.filter(it => it.id !== id);
+    this.persist(items, this.state.extraCats);
+    this.setState({ items, modal: null, form: null });
+  }
+  deleteCurrent = () => { if (this.state.form && this.state.form.id) this.del(this.state.form.id); };
+
+  saveTopic = () => {
+    const f = this.state.form;
+    if (!f || !f.category.trim()) return;
+    const cat = f.category.trim();
+    const exists = this.state.items.some(it => it.group === f.group && it.category === cat)
+      || this.state.extraCats.some(c => c.group === f.group && c.category === cat);
+    let extraCats = this.state.extraCats;
+    if (!exists) extraCats = [...extraCats, { group: f.group, category: cat }];
+    this.persist(this.state.items, extraCats);
+    this.setState({ extraCats, modal: null, form: null });
+  };
+
+  renderVals() {
+    const s = this.state;
+    const q = (s.query || '').trim().toLowerCase();
+    const isSearching = q.length > 0;
+    const inScope = (g) => s.group === 'all' || s.group === g;
+
+    // build ordered categories
+    const order = [], cmap = {};
+    const ensure = (g, c) => { const k = g + '||' + c; if (!cmap[k]) { cmap[k] = { group: g, category: c, items: [] }; order.push(k); } return cmap[k]; };
+    s.items.forEach(it => ensure(it.group, it.category).items.push(it));
+    s.extraCats.forEach(ec => ensure(ec.group, ec.category));
+
+    // chips
+    const counts = {};
+    (s.groups || []).forEach(g => counts[g.name] = 0);
+    s.items.forEach(it => { if (counts[it.group] != null) counts[it.group]++; });
+    const chipBase = 'display:flex;align-items:center;gap:7px;padding:8px 14px;border-radius:11px;font-size:13px;font-weight:600;cursor:pointer;border:1.5px solid;transition:all .12s;';
+    const mkChip = (key, label, count, accent) => {
+      const active = s.group === key;
+      const style = chipBase + (active
+        ? `background:#2E2A33;color:#fff;border-color:#2E2A33;`
+        : `background:#fff;color:#6A6570;border-color:#EBE8E2;`);
+      const dotStyle = `width:8px;height:8px;border-radius:50%;background:${accent};display:inline-block;`;
+      return { label, count, style, dot: !!accent, dotStyle, onClick: () => this.setGroupFilter(key) };
+    };
+    const total = s.items.length;
+    const chips = [mkChip('all', 'ทั้งหมด', total, null)]
+      .concat((s.groups || []).map(g => mkChip(g.name, g.name, counts[g.name] || 0, g.accent)));
+
+    // search results
+    const results = isSearching ? s.items.filter(it => inScope(it.group) && (
+      (it.title || '').toLowerCase().includes(q) ||
+      (it.remark || '').toLowerCase().includes(q) ||
+      (it.platform || '').toLowerCase().includes(q) ||
+      (it.category || '').toLowerCase().includes(q) ||
+      (it.group || '').toLowerCase().includes(q)
+    )).map(it => this.decorate(it)) : [];
+
+    // browse sections
+    const sections = order.map(k => cmap[k]).filter(sec => inScope(sec.group)).map(sec => {
+      const m = this.gm(sec.group);
+      return { key: sec.group + '/' + sec.category, category: sec.category, group: sec.group,
+        accent: m.accent, soft: m.soft, count: sec.items.length,
+        items: sec.items.map(it => this.decorate(it)),
+        onAdd: () => this.openAddIn(sec.group, sec.category) };
+    });
+
+    const catNames = [...new Set(order.map(k => cmap[k].category))];
+    const platNames = [...new Set(s.items.map(it => it.platform).filter(Boolean))];
+    const groupOptions = (s.groups || []).map(g => ({ name: g.name }));
+
+    const f = s.form || {};
+    const saveOn = !!(f.title && f.title.trim() && f.url && f.url.trim());
+    const saveBtnStyle = `padding:11px 20px;border:none;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;color:#fff;background:${saveOn ? '#2E2A33' : '#C9C5CC'};`;
+    const topicOn = !!(f.category && f.category.trim());
+    const saveTopicBtnStyle = `padding:11px 18px;border:none;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;color:#fff;background:${topicOn ? '#2E2A33' : '#C9C5CC'};`;
+    const groupOn = !!(f.name && f.name.trim());
+    const saveGroupBtnStyle = `padding:11px 18px;border:none;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;color:#fff;background:${groupOn ? '#2E2A33' : '#C9C5CC'};`;
+    const manageBtnStyle = `padding:9px 15px;border-radius:11px;font-size:13.5px;font-weight:600;cursor:pointer;border:1.5px solid ${s.manage ? '#2E2A33' : '#EBE8E2'};background:${s.manage ? '#2E2A33' : '#fff'};color:${s.manage ? '#fff' : '#6A6570'};`;
+
+    return {
+      query: s.query, hasQuery: q.length > 0, manage: s.manage, notManage: !s.manage,
+      manageLabel: s.manage ? '✓ กำลังจัดการ' : '⚙ จัดการ', manageBtnStyle,
+      setQuery: this.setQuery, clearQuery: this.clearQuery,
+      toggleManage: this.toggleManage, openAdd: this.openAdd, openAddTopic: this.openAddTopic,
+      openAddGroup: this.openAddGroup, saveGroup: this.saveGroup, setName: this.setName,
+      modalGroup: s.modal === 'group', groupOptions, saveGroupBtnStyle,
+      chips,
+      isSearching, isBrowsing: !isSearching,
+      results, resultCount: results.length, noResults: isSearching && results.length === 0,
+      sections,
+      modalLink: s.modal === 'link', modalTopic: s.modal === 'topic',
+      form: f, formHeading: f.id ? 'แก้ไขลิงก์' : 'เพิ่มลิงก์ใหม่',
+      canDelete: !!f.id, deleteCurrent: this.deleteCurrent,
+      setTitle: this.setTitle, setUrl: this.setUrl, setPlatform: this.setPlatform,
+      setCategory: this.setCategory, setGroup: this.setGroup,
+      saveLink: this.saveLink, saveTopic: this.saveTopic,
+      closeModal: this.closeModal, stop: this.stop,
+      catNames, platNames, saveBtnStyle, saveTopicBtnStyle,
+      canDeleteShown: !!f.id
+    };
+  }
+}
+</script>
+</body>
+</html>
